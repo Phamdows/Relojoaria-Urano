@@ -76,7 +76,17 @@ public class TelaVendas extends javax.swing.JFrame {
 
         BtnsPanel.setBackground(new Color(255,255,0,96));
 
-        CadastroBtn.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
+        CadastroBtn.setFont(new java.awt.Font("Aldrich", 1, 28)); // NOI18N
+        CadastroBtn.setForeground(new Color(0,0,0,177));
+        CadastroBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Btn1.png"))); // NOI18N
+        CadastroBtn.setBorder(null);
+        CadastroBtn.setBorderPainted(false);
+        CadastroBtn.setContentAreaFilled(false);
+        CadastroBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        CadastroBtn.setFocusPainted(false);
+        CadastroBtn.setFocusable(false);
+        CadastroBtn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        CadastroBtn.setIconTextGap(0);
         CadastroBtn.setLabel("<html><center>Registrar<br>Venda</center></html>");
         CadastroBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -84,16 +94,34 @@ public class TelaVendas extends javax.swing.JFrame {
             }
         });
 
-        EditarBtn.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
+        EditarBtn.setFont(new java.awt.Font("Aldrich", 1, 28)); // NOI18N
+        EditarBtn.setForeground(new Color(0,0,0,177));
+        EditarBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Btn2.png"))); // NOI18N
         EditarBtn.setText("<html><center>Detalhe<br>Venda</center></html>");
+        EditarBtn.setBorder(null);
+        EditarBtn.setBorderPainted(false);
+        EditarBtn.setContentAreaFilled(false);
+        EditarBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        EditarBtn.setFocusPainted(false);
+        EditarBtn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        EditarBtn.setIconTextGap(0);
         EditarBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 EditarBtnActionPerformed(evt);
             }
         });
 
-        ExcluirBtn.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
+        ExcluirBtn.setFont(new java.awt.Font("Aldrich", 1, 28)); // NOI18N
+        ExcluirBtn.setForeground(new Color(0,0,0,177));
+        ExcluirBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Btn3.png"))); // NOI18N
         ExcluirBtn.setText("<html><center>Excluir<br>Venda</center></html>");
+        ExcluirBtn.setBorder(null);
+        ExcluirBtn.setBorderPainted(false);
+        ExcluirBtn.setContentAreaFilled(false);
+        ExcluirBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        ExcluirBtn.setFocusPainted(false);
+        ExcluirBtn.setFocusable(false);
+        ExcluirBtn.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         ExcluirBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ExcluirBtnActionPerformed(evt);
@@ -106,7 +134,7 @@ public class TelaVendas extends javax.swing.JFrame {
             BtnsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(BtnsPanelLayout.createSequentialGroup()
                 .addContainerGap(104, Short.MAX_VALUE)
-                .addComponent(CadastroBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(CadastroBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(61, 61, 61)
                 .addComponent(EditarBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(67, 67, 67)
@@ -118,7 +146,7 @@ public class TelaVendas extends javax.swing.JFrame {
             .addGroup(BtnsPanelLayout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addGroup(BtnsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CadastroBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(CadastroBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(EditarBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(ExcluirBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(15, Short.MAX_VALUE))

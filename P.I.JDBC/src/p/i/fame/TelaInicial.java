@@ -63,6 +63,7 @@ public class TelaInicial extends javax.swing.JFrame {
         OSButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/O.SRect.png"))); // NOI18N
         OSButton.setBorder(null);
         OSButton.setBorderPainted(false);
+        OSButton.setContentAreaFilled(false);
         OSButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         OSButton.setFocusPainted(false);
         OSButton.setIconTextGap(0);
